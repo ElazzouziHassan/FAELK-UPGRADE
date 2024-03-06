@@ -58,5 +58,5 @@ npm run dev
 ```
 
 ---
-Si vous avez trouvé des problèmes vous devez de me contacter sur : ezhassan Info @gmail.com
+Si vous avez trouvé des problèmes vous devez de me contacter sur : ezhassan.Info@gmail.com
 
