@@ -4,7 +4,9 @@ import './accueil.scss'
 
 function Accueil() {
   return (
-    <div>Accueil</div>
+    <div>
+      <h1>home</h1>
+    </div>
   )
 }
 
