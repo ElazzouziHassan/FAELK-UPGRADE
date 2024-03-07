@@ -4,3 +4,14 @@
   text-decoration: none;
   list-style: none;
 }
+
+@mixin mobile{
+  @media (max-width: 480px) {
+    @content;
+  }
+}
+@mixin tablet{
+  @media (max-width: 960px) {
+    @content;
+  }
+}
