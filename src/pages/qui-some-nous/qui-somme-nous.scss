@@ -26,9 +26,18 @@
     }
   }
   .notre-histoire{
-    h2{}
-    hr{}
+    margin-top: 5dvh;
+    h2{
+      text-align: center;
+      margin-bottom: 2dvh;
+    }
+    hr{
+      width: 10dvw;
+      margin-left: 45%;
+      border: solid 2px black;
+    }
     .events{
+      margin-top: 3dvh;
       display: flex;
       .event-card{
 

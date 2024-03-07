@@ -1,6 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 import './qui-somme-nous.scss';
+
 
 function QuiSommeNous() {
   return (
@@ -33,6 +36,141 @@ function QuiSommeNous() {
       </div>
       <div className="notre-histoire">
         <h2>NOTRE HISTOIRE</h2>
+        <hr />
+        <VerticalTimeline>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2007"
+          >
+            <h3 className="vertical-timeline-element-title">
+              La création de la Fondation Abdelouahed El Kadiri
+            </h3>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2008"
+          >
+            <h3 className="vertical-timeline-element-title">
+              Démarrage du projet de la Bibliothèque de la Fondation
+            </h3>
+          </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2010"
+        >
+          <h3 className="vertical-timeline-element-title">
+            Inauguration officielle de la Bibliothèque
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Une conférence donnée par Alain Grunberg
+          </h4>
+          <p>
+            sur le thème : La Géopolitique du Maroc
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2011"
+        >
+          <h3 className="vertical-timeline-element-title">
+            Le 8ème Colloque Mohamed Zefzaf
+          </h3>
+          <p>
+            sous le thème : Mohamed Zefzaf à travers ses entretiens
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2012"
+        >
+          <h3 className="vertical-timeline-element-title">
+            Une rencontre autour de la lecture
+          </h3>
+          <p>
+            sous le thème : Tous pour la lecture
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2013"
+        >
+          <h3 className="vertical-timeline-element-title">
+            Expositions collective de peinture
+          </h3>
+          <p>
+            Palettes au féminin
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2014"
+        >
+          <h3 className="vertical-timeline-element-title">
+            Colloque International
+          </h3>
+          <p>
+            sous le thème : Cultures au Maghreb
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2015"
+        >
+          <h3 className="vertical-timeline-element-title">
+            CAFE SLAM
+          </h3>
+          <p>
+            avec Célim et Mustapha Slameur
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2016"
+        >
+          <h3 className="vertical-timeline-element-title">
+            Colloque International
+          </h3>
+          <p>
+            Sous le thème : La ville et l'urbain visions nouvelles et regards croisés
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2017"
+        >
+          <h3 className="vertical-timeline-element-title">
+            Colloque International
+          </h3>
+          <p>
+            sous le thème : Nouveaux Médias
+          </p>
+          <p>
+            Interactions et Transactions
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2018"
+        >
+          <h3 className="vertical-timeline-element-title">
+            Troisième Edition des Deux Journées d'Etudes
+          </h3>
+          <p>
+            sous le thème : Occupation humaine, gestion des ressources et recomposition de l'espace
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2020"
+        >
+          <h3 className="vertical-timeline-element-title">
+            Fin des travaux
+          </h3>
+          <p>
+            Complexe Culturel de la Fondation Abdelouahed EL KADIRI - El jadida
+          </p>
+        </VerticalTimelineElement>
+        </VerticalTimeline>
       </div>
       <div className="a-propos">
         <h1>
