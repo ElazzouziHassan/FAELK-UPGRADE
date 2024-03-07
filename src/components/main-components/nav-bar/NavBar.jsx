@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import {AccessAlarmIcon, PhoneIcon} from '@mui/icons-material';
 import './nav-bar.scss'
 
 export default function NavBar() {
@@ -30,11 +31,11 @@ export default function NavBar() {
       </div>
       <div className="contact-info">
         <div className="horaire">
-          <span> 09:00 - 17:00</span>
+          <span><AccessAlarmIcon/> 09:00 - 17:00</span>
         </div>
         <div className="telphone">
           <span>
-            <a href="tel:+212523373698">+212 523 80 06 01</a>
+            <a href="tel:+212523373698"> <PhoneIcon/> +212 523 80 06 01</a>
             </span>
         </div>
       </div>

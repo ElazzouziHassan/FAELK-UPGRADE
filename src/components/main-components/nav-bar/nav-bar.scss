@@ -9,6 +9,8 @@
   top: 0;
   z-index: 999;
   background-color: #fff;
+  font-size: .9em;
+  font-weight: 600;
   @include mobile{
     // mobile styles here
   }
@@ -24,7 +26,7 @@
     ul{
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 1.2dvw;
       li{
         Link{
 
