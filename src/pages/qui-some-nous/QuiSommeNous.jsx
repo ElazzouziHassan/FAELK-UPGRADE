@@ -173,9 +173,28 @@ function QuiSommeNous() {
         </VerticalTimeline>
       </div>
       <div className="a-propos">
-        <h1>
-        a propos de nous
-        </h1>
+        <div className="left">
+          <h2>À propos de la Fondation</h2>
+          <hr />
+          <p>
+            Créée en 2007, reconnue d'utilité publique en 2012, la Fondation Abdelouahed El KADIRI n'a cessé de contribuer au développement culturel et artistique des jeunes générations par des rencontres, des conférences, des expositions et ce dans la maison qu'habitait le nationaliste.
+          </p>
+          <p>
+            Grâce au nouveau projet et grâce à la création du nouveau complexe, une ère nouvelle s’est imposée avec une médiathèque, une salle de conférences, des salles de cinéma, des espaces de loisirs pour enfants et adultes.
+          </p>
+          <p>
+            Bien que l'inauguration officielle du complexe n'ait pas encore été à l'ordre du jour, en raison de la pandémie, l'action sociale et culturelle suit son chemin (bibliothèque ouverte) aux membres inscrits.
+          </p>
+          <p>
+            Par ailleurs, la fondation s'investit dans l'action bienfaitrice à travers l'aide aux étudiants nécessiteux par l'octroi de bourses. Aujourd'hui, trois promotions poursuivent leurs études à l'université Euro-Mediterranée de Fès avec qui la Fondation a signé une convention.
+          </p>
+          <p>
+            Cette convention assure une prise en charge des étudiants provenant d'El Jadida et sa région.
+          </p>
+        </div>
+        <div className="right">
+          <img src="\uploads\008.jpg" alt="la Fondation Abdelouahed El KADIRI" />
+        </div>
       </div>
     </div>
   )

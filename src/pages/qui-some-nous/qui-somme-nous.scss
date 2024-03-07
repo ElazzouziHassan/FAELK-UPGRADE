@@ -44,5 +44,32 @@
       }
     }
   }
-  .a-propos{}
+  .a-propos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4dvw;
+    margin: 4dvh 8dvw;
+    .left{
+      h2{
+        font-size: 1.8rem;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+      hr{
+        width: 30dvw;
+        border: solid 2px black;
+        margin: 2dvh 0;
+      }
+      p{
+        text-align: justify;
+      }
+    }
+    .right{
+      img{
+        width: 45dvw;
+        height: 65dvh;
+      }
+    }
+  }
 }
