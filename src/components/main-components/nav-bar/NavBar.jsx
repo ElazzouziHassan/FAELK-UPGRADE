@@ -25,7 +25,7 @@ export default function NavBar() {
             <Link to="/nos-programmes" className='link'>NOS PROGRAMMES</Link>
           </li>
           <li>
-            <Link to="/communication" className='link'>COMMUNICATION</Link>
+            <Link to="/contactez-nous" className='link'>CONTACTEZ-NOUS</Link>
           </li>
         </ul>
       </div>
