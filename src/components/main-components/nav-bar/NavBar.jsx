@@ -7,7 +7,7 @@ export default function NavBar() {
   return (
     <div className="nav-bar">
       <div className="logo">
-        <a Link="/"><img src="public\uploads\logo@2x.png" alt="Fondation Abdelouahed EL KADIRI" /></a>
+        <a Link="/"><img src="\uploads\logo@2x.png" alt="Fondation Abdelouahed EL KADIRI" /></a>
       </div>
       <div className="menu">
         <ul>
