@@ -15,9 +15,9 @@ export default function Footer() {
             Ouassat El Madina Hay El Matar, <br />
             24013 El Jadida
           </address>
-          <label htmlFor="telephone">Telephone</label>
-          <span>+212 523 37 36 98</span>
-          <label htmlFor="email">E-mail</label>
+          <label htmlFor="telephone">Telephone : </label> 
+          <span>+212 523 37 36 98</span><br />
+          <label htmlFor="email">E-mail : </label> 
           <span>contact@fondationAEK.org</span>
         </div>
         <div className="center">
@@ -48,6 +48,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
+      <hr />
       <div className="bottom">
         <span>© Copyright 2024, All rights reserved to Fondation Abdelouahed El Kadiri</span>
       </div>

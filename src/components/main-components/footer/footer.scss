@@ -1,3 +1,79 @@
 .footer{
-  
+  background: #000;
+  bottom: 0;
+  width: 100%;
+  .top{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 9dvw;
+    padding: 1em;
+    .left{
+      color: whitesmoke;
+      h2{
+        margin: .5rem 0;
+      }
+      label{
+        font-size: 1.1rem;
+        font-weight: 600;
+      }
+      address{
+        font-size: 1rem;
+        font-weight: 400;
+        color: darkgrey;
+      }
+      span{
+        font-size: 1rem;
+        font-weight: 400;
+        color: darkgrey;
+      }
+    }
+    .center{
+      color: whitesmoke;
+      h2{
+        margin: .5rem 0;
+      }
+      ul{
+        display: flex;
+        flex-direction: column;
+        gap: 1dvh;
+        li{
+          .link{
+            font-size: .8rem;
+            font-weight: 500;
+            color: darkgrey;
+          }
+        }
+      }
+    }
+    .right{
+      color: whitesmoke;
+      h2{
+        margin: .5rem 0;
+      }
+      ul{
+        display: flex;
+        flex-direction: column;
+        gap: 1dvh;
+        li{
+          a{
+            color: darkgrey;
+          }
+        }
+      }
+    }
+  }
+  hr{
+    width: 80%;
+    margin: 2dvh 9dvw 0 9dvw;
+  }
+  .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 9dvw;
+    span{
+      padding: 1rem;
+      color: whitesmoke;
+    }
+  }
 }
