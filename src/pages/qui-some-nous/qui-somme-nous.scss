@@ -1,0 +1,39 @@
+.qui-some-nous{
+  .mot-president{
+    margin: 0 8dvw;
+    display: flex;
+    justify-content: space-between;
+    gap: 4dvw;
+    .left{
+      img{
+        width: 40dvw;
+        height: 80dvh;
+        padding: 5px;
+        border-radius: 10px;
+      }
+    }
+    .right{
+      text-align: justify;
+      margin: 1dvh 0;
+      p{
+        line-height: 1.3rem;
+        margin: 1dvh 0;
+        span{
+          margin: 3dvh 3dvw 0 3dvh;
+        }
+      }
+
+    }
+  }
+  .notre-histoire{
+    h2{}
+    hr{}
+    .events{
+      display: flex;
+      .event-card{
+
+      }
+    }
+  }
+  .a-propos{}
+}
