@@ -1,0 +1,30 @@
+.galerie-exposition{
+  display: flex;
+  justify-content: space-between;
+  gap: 4dvw;
+  margin: 3dvh 8dvw;
+  .left{
+    h2{
+      font-size: 1.8rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+    hr{
+      width: 30dvw;
+      border: solid 2px black;
+      margin: 2dvh 0;
+    }
+    p{
+      margin-top: 3dvh;
+      text-align: justify;
+      line-height: 1.6rem;
+    }
+  }
+  .right{
+    img{
+      width: 45dvw;
+      height: 65dvh;
+      border-radius: 10px;
+    }
+  }
+}
