@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {AccessAlarmIcon, PhoneIcon} from '@mui/icons-material';
+// import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
 import './nav-bar.scss'
 
 export default function NavBar() {
@@ -13,30 +13,31 @@ export default function NavBar() {
       <div className="menu">
         <ul>
           <li>
-            <Link to="/">ACCUEIL</Link>
+            <Link to="/" className='link'>ACCUEIL</Link>
           </li>
           <li>
-            <Link to="/qui-somme-nous">QUI SOMMES-NOUS ?</Link>
+            <Link to="/qui-somme-nous" className='link'>QUI SOMMES-NOUS ?</Link>
           </li>
           <li>
-            <Link to="/nos-projets">NOS PROJETS</Link>
+            <Link to="/nos-projets" className='link'>NOS PROJETS</Link>
           </li>
           <li>
-            <Link to="/nos-programmes">NOS PROGRAMMES</Link>
+            <Link to="/nos-programmes" className='link'>NOS PROGRAMMES</Link>
           </li>
           <li>
-            <Link to="/communication">COMMUNICATION</Link>
+            <Link to="/communication" className='link'>COMMUNICATION</Link>
           </li>
         </ul>
       </div>
       <div className="contact-info">
         <div className="horaire">
-          <span><AccessAlarmIcon/> 09:00 - 17:00</span>
+          {/* <AccessAlarmIcon/> */}
+          <span> 09:00 - 17:00</span>
         </div>
         <div className="telphone">
           <span>
-            <a href="tel:+212523373698"> <PhoneIcon/> +212 523 80 06 01</a>
-            </span>
+            <a href="tel:+212523373698"> +212 523 80 06 01</a>
+          </span>
         </div>
       </div>
     </div>  

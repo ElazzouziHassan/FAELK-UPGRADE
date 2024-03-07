@@ -3,14 +3,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 7dvh;
+  height: 9dvh;
   width: 100%;
   position: sticky;
   top: 0;
   z-index: 999;
-  background-color: #fff;
+  background-color: whitesmoke;
   font-size: .9em;
   font-weight: 600;
+  opacity: 80%;
   @include mobile{
     // mobile styles here
   }
@@ -28,8 +29,8 @@
       align-items: center;
       gap: 1.2dvw;
       li{
-        Link{
-
+        .link{
+          color: rgb(96, 95, 95);
         }
       }
     }
@@ -38,15 +39,16 @@
     display: flex;
     align-items: center;
     margin-right: 6dvw;
+    gap: 2dvw;
     .horaire{
       span{
-
+        color: rgb(96, 95, 95);
       }
     }
     .telphone{
       span{
         a{
-
+          color: rgb(96, 95, 95);
         }
       }
     }
