@@ -5,9 +5,9 @@
       position: relative;
       width:99dvw;
       display: block;
-      .item-1{}
-      .item-2{}
-      .item-3{}
+      // .item-1{}
+      // .item-2{}
+      // .item-3{}
     }
     .carousel-item{
       position: absolute;
@@ -72,9 +72,9 @@
     margin: 4dvh 0;
     h2{
       margin: 0 9dvw;
-      span{
+      // span{
 
-      }
+      // }
     }
     hr{
       width: 31.5dvw;
@@ -84,24 +84,24 @@
     .cards{
       display: flex;
       justify-content: space-between;
-      margin: 0 9dvw;
+      margin: 0 8dvw;
       gap: 1dvw;
       .card{
-        background: lightgray;
-        border: solid 1px lightsalmon;
+        background: rgb(255, 255, 255);
         border-radius: .5rem;
         h3{
           padding: 0.5em;
           font-size: 1.2rem;
           font-weight: 600;
-          text-align: center;
+          // text-align: justify;
           color: darken($color: #000000, $amount: 0);
         }
         p{
-          padding: 0.5em;
+          padding: 0.8em;
           font-size: 1rem;
           font-weight: 400;
-          text-align: center;
+          text-align: justify;
+          // text-justify: inter-word;
         }
       }
     }
@@ -112,14 +112,28 @@
     margin: 5dvh 0;
     gap: 4dvw;
     .left{
-      margin-left: 9dvw;
-      span{}
-      h3{}
-      hr{}
-      p{}
+      margin-left: 8dvw;
+      span{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+      h3{
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 2dvh 0;
+      }
+      hr{
+        border: solid 2px black;
+        margin: 1em 0;
+      }
+      p{
+        line-height: 1.5rem;
+        margin-top: 6dvh;
+      }
     }
     .right{
-      margin-right: 9dvw;
+      margin-right: 8dvw;
       video{
         width: 600px;
         height: 360px;
@@ -127,6 +141,23 @@
     }
   }
   .services-section{
-    
+    display: flex;
+    justify-content: space-between;
+    margin: 0 9dvw 4dvh 9dvw;
+    gap: 4dvw;
+    .service-card{
+      img{
+        border-radius: 5px;
+      }
+      h3{
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 2dvh 0;
+      }
+      p{
+        font-size: .9rem;
+        font-weight: 500;
+      }
+    }
   }
 }
