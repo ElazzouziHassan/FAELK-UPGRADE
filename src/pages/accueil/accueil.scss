@@ -69,6 +69,7 @@
 
   }
   .intro{
+    margin: 4dvh 0;
     h2{
       margin: 0 9dvw;
       span{
@@ -106,9 +107,26 @@
     }
   }
   .video-section{
-
+    display: flex;
+    justify-content: space-between;
+    margin: 5dvh 0;
+    gap: 4dvw;
+    .left{
+      margin-left: 9dvw;
+      span{}
+      h3{}
+      hr{}
+      p{}
+    }
+    .right{
+      margin-right: 9dvw;
+      video{
+        width: 600px;
+        height: 360px;
+      }
+    }
   }
   .services-section{
-
+    
   }
 }

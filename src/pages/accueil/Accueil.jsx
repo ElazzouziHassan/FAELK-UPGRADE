@@ -68,13 +68,40 @@ function Accueil() {
           </p>
         </div>
         <div className="right">
-          <video height="360" width="600" autoplay loop muted controls id="myVideo">
+          <video  autoplay loop muted controls id="myVideo">
             <source src='\uploads\video.mp4'  type="video/mp4"/>
           </video>
         </div>
       </div>
       <div className="services-section">
-        {/* services section */}
+        <div className="service-card">
+          <img src="\uploads\service1.jpg" alt="La médiathèque" />
+          <h3>
+            La médiathèque
+          </h3>
+          <p>
+            La mission de la médiathèque du complexe Culturel Abdelouahed El Kadiri est de contribuer à une démarche d'éducation permanente par la mise à disposition du public d'informations et de documentations sur differents supports (numériques et traditionnels) Pour ce faire, la médiathèque est aménagée sur une surface de 2 446.50 m2.
+          </p>
+        </div>
+        <div className="service-card">
+          <img src="\uploads\service2.jpg" alt="Le théâtre et les deux salles de cinéma" />
+          <h3>
+            Le théâtre et les deux salles de cinéma
+          </h3>
+          <p>
+            Le projet du complexe Culturel Abdelouahed El Kadiri prévoit la réalisation d'une salle de théâtre et de deux salles de cinéma. Le but est d'encourager toutes les formes d'expression créatrices en mettant à la disposition des associations culturelles et du public en général des espaces de création, d'expression et de communication disposant de toutes les avancées dans le domaine acoustique, visuel et scénique
+          </p>
+        </div>
+        <div className="service-card">
+          <img src="\uploads\service3.jpg" alt="Galerie d'exposition de peinture" />
+          <h3>
+            Galerie d'exposition de peinture et salle de cours de musique et d'art
+          </h3>
+          <p>
+            La galerie d'art de la Fondation Abdelouahed El Kadiri, un lieu d'exposition permettant au public de nouer des rencontres artistiques : peinture, sculpture, photographie, œuvres conceptuelles, etc.
+            A travers ses expositions, la Fondation s’engage à promouvoir la création artistique moderne et contemporaine et contribue à son rayonnement tant sur le plan national qu’international.
+          </p>
+        </div>
       </div>
     </div>
   )
