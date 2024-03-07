@@ -69,7 +69,41 @@
 
   }
   .intro{
+    h2{
+      margin: 0 9dvw;
+      span{
 
+      }
+    }
+    hr{
+      width: 31.5dvw;
+      margin: 2dvh 9dvw;
+      border: solid 2px black;
+    }
+    .cards{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 9dvw;
+      gap: 1dvw;
+      .card{
+        background: lightgray;
+        border: solid 1px lightsalmon;
+        border-radius: .5rem;
+        h3{
+          padding: 0.5em;
+          font-size: 1.2rem;
+          font-weight: 600;
+          text-align: center;
+          color: darken($color: #000000, $amount: 0);
+        }
+        p{
+          padding: 0.5em;
+          font-size: 1rem;
+          font-weight: 400;
+          text-align: center;
+        }
+      }
+    }
   }
   .video-section{
 

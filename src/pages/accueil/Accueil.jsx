@@ -27,7 +27,7 @@ function Accueil() {
       </div>
       <div className="intro">
         <h2>
-          <span>Abdelouahed El Kadiri</span>
+          <span>Abdelouahed El Kadiri</span><br />
           Un Homme, Une Fondation, Un Projet
         </h2>
         <hr />
@@ -59,7 +59,19 @@ function Accueil() {
         </div>
       </div>
       <div className="video-section">
-        {/* video section */}
+        <div className="left">
+          <span>Et le rêve</span>
+          <h3>DEVIENT RÉALITÉ</h3>
+          <hr />
+          <p>
+            Le Complexe Culturel Abdelouahed El Kadiri vient arc-bouter la volonté de Sa Majesté Le Roi Mohammed VI, que Dieu le glorifie, de faire de l'élément culturel un levier du développement territorial et du rayonnement des villes : un pole culturel polyvalent qui aura pour mission la promotion de l'activité artistique dans la ville d'El Jadida, (cinéma, musique, théâtre, etc.) et la symbiose des générations de différentes catégories sociales et culturelles. Le projet trouve son inspiration dans une lecture des éléments constitutifs des paysages naturels et urbains.
+          </p>
+        </div>
+        <div className="right">
+          <video height="360" width="600" autoplay loop muted controls id="myVideo">
+            <source src='\uploads\video.mp4'  type="video/mp4"/>
+          </video>
+        </div>
       </div>
       <div className="services-section">
         {/* services section */}
