@@ -7,6 +7,7 @@ import NosProgrammes from "./pages/nos-programmes/NosProgrammes";
 import NosProjets from "./pages/nos-projets/NosProjets";
 import QuiSommeNous from "./pages/qui-some-nous/QuiSommeNous";
 import './App.scss'
+import Communication from "./pages/communication/Communication";
 
 const Layout = () => {
   return (
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
       { path:"/nos-programmes", element: <NosProgrammes /> },
       { path:"/nos-projets", element: <NosProjets /> },
       { path:"/qui-somme-nous", element: <QuiSommeNous /> },
+      { path:"/communication", element: <Communication /> },
     ],
   }
 ])

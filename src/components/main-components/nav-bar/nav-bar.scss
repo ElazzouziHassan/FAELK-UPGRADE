@@ -1,0 +1,17 @@
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logo{}
+  .menu{
+    ul{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+  .contact-info{
+    display: flex;
+    align-items: center;
+  }
+}

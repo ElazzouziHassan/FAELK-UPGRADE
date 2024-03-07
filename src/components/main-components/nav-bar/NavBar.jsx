@@ -1,20 +1,31 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './nav-bar.scss'
 
 export default function NavBar() {
   return (
     <div className="nav-bar">
       <div className="logo">
-        <a href="/"><img src="" alt="Fondation Abdelouahed EL KADIRI" /></a>
+        <a Link="/"><img src="" alt="Fondation Abdelouahed EL KADIRI" /></a>
       </div>
       <div className="menu">
         <ul>
-          <li><a href="/">ACCUEIL</a></li>
-          <li><a href="/">QUI SOMMES-NOUS ?</a></li>
-          <li><a href="/">NOS PROJETS</a></li>
-          <li><a href="/">NOS PROGRAMMES</a></li>
-          <li><a href="/">COMMUNICATION</a></li>
+          <li>
+            <Link to="/">ACCUEIL</Link>
+          </li>
+          <li>
+            <Link to="/qui-somme-nous">QUI SOMMES-NOUS ?</Link>
+          </li>
+          <li>
+            <Link to="/nos-projets">NOS PROJETS</Link>
+          </li>
+          <li>
+            <Link to="/nos-programmes">NOS PROGRAMMES</Link>
+          </li>
+          <li>
+            <Link to="/communication">COMMUNICATION</Link>
+          </li>
         </ul>
       </div>
       <div className="contact-info">
