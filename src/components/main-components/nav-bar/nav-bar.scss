@@ -1,17 +1,45 @@
+@import "../../../style.scss";
 .nav-bar{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  .logo{}
+  height: 7dvh;
+  @include mobile{
+    // mobile styles here
+  }
+  .logo{
+    a{
+      img{
+        height: 8dvh;
+      }
+    }
+  }
   .menu{
     ul{
       display: flex;
       align-items: center;
       gap: 10px;
+      li{
+        Link{
+
+        }
+      }
     }
   }
   .contact-info{
     display: flex;
     align-items: center;
+    .horaire{
+      span{
+
+      }
+    }
+    .telphone{
+      span{
+        a{
+          
+        }
+      }
+    }
   }
 }
