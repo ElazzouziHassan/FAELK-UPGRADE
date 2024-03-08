@@ -1,0 +1,97 @@
+.contactez-nous{
+  height: calc(100dvh - 9dvh);
+  width: 100%;
+  h2{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 3dvh 8dvw;
+    text-transform: uppercase;
+    text-decoration: underline solid lightgray;
+  }
+  .contact-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 4dvw;
+    margin: 4dvh 8dvw;
+    form{
+      background: #e1e0e0;
+      border-radius: 10px;
+      padding: 2em;
+      h2{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 1dvh 0;
+        text-decoration: none;
+      }
+      p{
+        font-size: 1rem;
+        font-weight: 400;
+      }
+      hr{
+        width: 90%;
+        border: solid 1.5px black;
+        margin: 2dvh 0;
+      }
+      input{
+        width: 90%;
+        height: 4dvh;
+        margin: 1dvh 0;
+        border: none;
+        border-radius: 5px;
+      }
+      textarea{
+        width: 90%;
+        border: none;
+        border-radius: 5px;
+        &::placeholder{
+          padding: 10px;
+        }
+      }
+      input[type="text"]{
+        height: 6dvh;
+        &::placeholder{
+          padding: 10px;
+        }
+      }
+      input[type="email"]{
+        height: 6dvh;
+        &::placeholder{
+          padding: 10px;
+        }
+      }
+      input[type="button"]{
+        transition: ease-in-out .4s;
+        height: 5dvh;
+        &:hover{
+          background: #000;
+          color: whitesmoke;
+        }
+      }
+    }
+    .contact-info{
+      margin-top: 5dvh;
+      width: 25dvw;
+      label{
+        font-size: 1.1rem;
+        font-weight: 600;
+      }
+      address{
+        margin: 2dvh 0;
+        p{
+          font-size: .9em;
+          font-weight: 500;
+          color: rgb(111, 111, 111);
+        }
+      }
+      span{
+        a{
+          margin: 5dvh .5dvw;
+          padding: 5px;
+          font-size: .9em;
+          font-weight: 500;
+          color: rgb(111, 111, 111);
+        }
+      }
+    }
+  }
+}

@@ -4,7 +4,12 @@ import './nos-programmes.scss'
 
 function NosProgrammes() {
   return (
-    <div>NosProgrammes</div>
+    <div className="nos-programmes">
+      <div className="wrapper">
+        <h1>coming soon<span className="dot">.</span></h1>
+        <p>{':)'}</p>
+      </div>
+    </div>
   )
 }
 
