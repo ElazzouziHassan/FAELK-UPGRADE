@@ -1,15 +1,24 @@
+@import "../../style.scss";
 .qui-some-nous{
   .mot-president{
     margin: 0 8dvw;
     display: flex;
     justify-content: space-between;
     gap: 4dvw;
+    @include mobile{
+      display: block;
+      margin: 0 4dvw;
+    }
     .left{
       img{
         width: 40dvw;
         height: 80dvh;
         padding: 5px;
         border-radius: 10px;
+        @include mobile{
+          width: 89dvw;
+          height: 40dvh;
+        }
       }
     }
     .right{
@@ -18,11 +27,17 @@
       p{
         line-height: 1.3rem;
         margin: 1dvh 0;
+        @include mobile{
+          line-height: 1.1rem;
+          margin: 1dvh 3dvw;
+        }
         span{
           margin: 3dvh 3dvw 0 3dvh;
+          @include mobile{
+            margin: 1dvh 3dvw;
+          }
         }
       }
-
     }
   }
   .notre-histoire{
@@ -50,6 +65,9 @@
     justify-content: space-between;
     gap: 4dvw;
     margin: 4dvh 8dvw;
+    @include mobile{
+      display: block;
+    }
     .left{
       h2{
         font-size: 1.8rem;
@@ -69,6 +87,10 @@
       img{
         width: 45dvw;
         height: 65dvh;
+        @include mobile{
+          width: 89dvw;
+          height: 40dvh;
+        }
       }
     }
   }
