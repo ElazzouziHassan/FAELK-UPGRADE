@@ -1,8 +1,12 @@
+@import "../../../style.scss";
 .salles-cinema{
   display: flex;
   justify-content: space-between;
   gap: 4dvw;
   margin: 3dvh 8dvw;
+  @include mobile{
+    display: block;
+  }
   .left{
     h2{
       font-size: 1.8rem;
@@ -25,6 +29,10 @@
       width: 45dvw;
       height: 65dvh;
       border-radius: 10px;
+      @include mobile {
+        width: 90dvw;
+        height: 40dvh;
+      }
     }
   }
 }
