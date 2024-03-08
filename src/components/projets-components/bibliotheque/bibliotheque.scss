@@ -1,13 +1,21 @@
+@import "../../../style.scss";
 .bibliotheque{
   display: flex;
   justify-content: space-between;
   gap: 4dvw;
   margin: 3dvh 8dvw;
+  @include mobile{
+    display: block;
+  }
   .left{
     img{
       width: 45dvw;
       height: 65dvh;
       border-radius: 10px;
+      @include mobile {
+        width: 90dvw;
+        height: 40dvh;
+      }
     }
   }
   .right{
