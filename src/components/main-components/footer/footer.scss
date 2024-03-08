@@ -1,3 +1,4 @@
+@import "../../../style.scss";
 .footer{
   background: #000;
   bottom: 0;
@@ -7,6 +8,12 @@
     justify-content: space-between;
     margin: 0 9dvw;
     padding: 1em;
+    @include mobile{
+      display: flex;
+      flex-direction: column;
+      gap: 3vh;
+      margin: 0 2dvw;
+    }
     .left{
       color: whitesmoke;
       h2{
@@ -47,6 +54,9 @@
     }
     .right{
       color: whitesmoke;
+      @include mobile{
+        display: none;
+      }
       h2{
         margin: .5rem 0;
       }
