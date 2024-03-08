@@ -13,21 +13,37 @@
   font-weight: 600;
   opacity: 80%;
   @include mobile{
-    // mobile styles here
+    height: 6dvh;
   }
   .logo{
     margin-left: 6dvw;
+    @include mobile{
+      margin-left: 3dvw;
+    }
     a{
       img{
         height: 8dvh;
+        @include mobile{
+          height: 6dvh;
+        }
       }
     }
   }
   .menu{
+    @include mobile{
+      margin-top: 25dvh;
+      display: none;
+      &.open{
+        display: block;
+      }
+    }
     ul{
       display: flex;
       align-items: center;
       gap: 1.2dvw;
+      @include mobile{
+        display: block;
+      }
       li{
         .link{
           color: rgb(96, 95, 95);
@@ -36,6 +52,9 @@
     }
   }
   .contact-info{
+    @include mobile{
+      display: none;
+    }
     display: flex;
     align-items: center;
     margin-right: 6dvw;
@@ -50,6 +69,18 @@
         a{
           color: rgb(96, 95, 95);
         }
+      }
+    }
+  }
+  .toggle-menu{
+    display: none;
+    @include mobile{
+      display: unset;
+      margin-right: 4dvw;
+      img{
+        width: 6.5dvw;
+        height: 3.5dvh;
+        object-fit: contain;
       }
     }
   }

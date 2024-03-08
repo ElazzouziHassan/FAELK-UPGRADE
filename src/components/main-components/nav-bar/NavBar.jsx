@@ -1,10 +1,14 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
 import './nav-bar.scss'
 
+
+
 export default function NavBar() {
+
+  
+
   return (
     <div className="nav-bar">
       <div className="logo">
@@ -39,6 +43,9 @@ export default function NavBar() {
             <a href="tel:+212523373698"> +212 523 80 06 01</a>
           </span>
         </div>
+      </div>
+      <div className="toggle-menu">
+        <img src="\uploads\menu.png" alt="Menu Icos"/>
       </div>
     </div>  
   )
